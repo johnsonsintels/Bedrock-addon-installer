@@ -32,7 +32,7 @@
 
 ### Integration with Pterodactyl and Blueprints
 
-To deploy this script on your Freeminecrafthost.com servers using Pterodactyl and Blueprints, follow these steps:
+To deploy this script on your servers using Pterodactyl and Blueprints, follow these steps:
 
 1. **Place the Script:**
    - Upload `addon_installer.py` to `/home/container/scripts/addon_installer.py` within the server's file system.
@@ -68,7 +68,7 @@ To deploy this script on your Freeminecrafthost.com servers using Pterodactyl an
    - Ensure these paths are accessible within the container (they should be by default in Pterodactyl).
 
 5. **User Instructions:**
-   - Inform your Freeminecrafthost.com users to:
+   - Inform your users to:
      - Upload `.mcpack` files to the `/addons/uploads` directory using the Pterodactyl file manager.
      - Restart their server to trigger the installation (addons are applied during startup).
    - Provide a note that they can check `/addons/install_log.txt` for installation details.
